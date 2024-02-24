@@ -1,0 +1,802 @@
+{
+    "青春コンプレックス": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 13.8
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "OMAKENO Stroke": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "my flow": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "IMAWANOKIWA": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "oboro": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Mystic Parade": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "アンダーキッズ": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "1000年生きてる": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "ぽわわん劇場": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "NOIZY BOUNCE": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "フタタビ": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Love Kills U": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "with U": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "POWER OF UNITY": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "月面基地": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "enchanted wanderer": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Rainbow Rush Story": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Knight Rider": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Last Kingdom": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "終点": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        }
+    },
+    "See The Light": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.8,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "きゅうくらりん": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "エゴロック": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "コンティニュー！ feat. 藍月なくる": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "おとせサンダー": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 13.7
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "シエルブルーマルシェ": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 13.7
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Irresistible": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "リフヴェイン": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "リスペク風神": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "LOSE CONTROL": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.7,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "スカーレット警察のゲットーパトロール24時": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "隠密あんみつDX": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "パーフェクション": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Sunday Night feat Kanata.N": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "テリトリーバトル": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "INTERNET OVERDOSE": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Transcend Lights": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.5,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "一か罰": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 14.0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Luminaria": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 14.0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "Trick tear": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 14.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "ヴァンパイア": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 13.4
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "ウミユリ海底譚": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        }
+    },
+    "Falling": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "39": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 13.4
+        }
+    },
+    "クノイチでも恋がしたい": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        }
+    },
+    "フィクサー": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        }
+    },
+    "ばかみたい【Taxi Driver Edition】": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "残響散歌": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    },
+    "猫祭り": {
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        }
+    },
+    "インターネットサバイバー":{
+        "DX": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 13.4,
+            "ReMaster": 0
+        },
+        "SD": {
+            "Basic": 0,
+            "Advanced": 0,
+            "Expert": 0,
+            "Master": 0,
+            "ReMaster": 0
+        }
+    }
+}

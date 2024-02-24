@@ -1,0 +1,7 @@
+# 可执行文件
+*.exe
+b50
+
+# Debug调试文件
+!/cmd/maib50/*.go
+/cmd/maib50/*
