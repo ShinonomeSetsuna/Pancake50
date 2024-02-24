@@ -65,9 +65,14 @@ func GetResource(url string) []byte {
 func GetAuthorization() string {
 	if authorization == "" {
 		if info, err := os.ReadFile("./Authorization.txt"); err != nil {
-			fmt.Println("未找到Authorization.txt文件, 请手动输入")
-			fmt.Print(">")
-			fmt.Scanln(&authorization)
+			if file, err := os.Create("./Authorization.txt"); err != nil {
+				log.Fatalln("创建文件失败：", err)
+			} else {
+				fmt.Println("成功创建文件，请编辑后再次启动")
+				defer file.Close()
+				os.Exit(0)
+			}
+
 		} else {
 			authorization = string(info)
 		}
