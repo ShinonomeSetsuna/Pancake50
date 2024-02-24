@@ -6,6 +6,7 @@ import (
 	"image/color"
 	"image/draw"
 	"strconv"
+	"strings"
 
 	"github.com/ShinonomeSetsuna/Pancake50/internal/pkg/songlist"
 	"github.com/ShinonomeSetsuna/Pancake50/internal/types"
@@ -33,13 +34,13 @@ func DrawAll(b35, b15 []types.Song) {
 		fmt.Println("已完成：", counter+1, "/50")
 		counter += 1
 		_, rating := songlist.GetSongRating(song)
+		rating = strings.Replace(rating, "+", "", 1)
 		num, _ := strconv.ParseInt(rating, 10, 64)
 		b35t += int(num)
 	}
 
 	b15t := 0
 	for _, song := range b15 {
-		// 手动阴影
 		draw.Draw(background,
 			image.Rect(counter%5*1100+100, counter/5*500+300, counter%5*1100+1100, counter/5*500+700),
 			DrawOne(song, songlist.GetRecord(song.Music.Music_id)),
@@ -48,6 +49,7 @@ func DrawAll(b35, b15 []types.Song) {
 		fmt.Println("已完成：", counter+1, "/50")
 		counter += 1
 		_, rating := songlist.GetSongRating(song)
+		rating = strings.Replace(rating, "+", "", 1)
 		num, _ := strconv.ParseInt(rating, 10, 64)
 		b15t += int(num)
 	}

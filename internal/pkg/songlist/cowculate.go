@@ -4,37 +4,70 @@ package songlist
 import (
 	"fmt"
 	"math"
+	"strconv"
+	"strings"
 
 	"github.com/ShinonomeSetsuna/Pancake50/internal/types"
 )
+
+var levelHash = map[int]string{
+	1:  "1",
+	2:  "2",
+	3:  "3",
+	4:  "4",
+	5:  "5",
+	6:  "6",
+	7:  "7",
+	8:  "7+",
+	9:  "8",
+	10: "8+",
+	11: "9",
+	12: "9+",
+	13: "10",
+	14: "10+",
+	15: "11",
+	16: "11+",
+	17: "12",
+	18: "12+",
+	19: "13",
+	20: "13+",
+	21: "14",
+	22: "14+",
+	23: "15",
+}
 
 /*
 return 定数 rating
 */
 func GetSongRating(song types.Song) (string, string) {
-	var ds float64
-	var level types.DS
+	var cur float64 = 0
+	var ds types.DS
 
 	if song.Music.Is_deluxe {
-		level = DS[song.Music.Name].DX
+		ds = DS[song.Music.Name].DX
 	} else {
-		level = DS[song.Music.Name].SD
+		ds = DS[song.Music.Name].SD
 	}
 
 	switch song.Music.Level_info.Difficulty {
 	case 0:
-		ds = level.Basic
+		cur = ds.Basic
 	case 1:
-		ds = level.Advanced
+		cur = ds.Advanced
 	case 2:
-		ds = level.Expert
+		cur = ds.Expert
 	case 3:
-		ds = level.Master
+		cur = ds.Master
 	case 4:
-		ds = level.ReMaster
+		cur = ds.ReMaster
 	}
-
-	return fmt.Sprintf("%.1f", ds), fmt.Sprintf("%.0f", Calculate(song.Achievement, ds))
+	if cur == 0 {
+		level := levelHash[song.Music.Level_info.Level]
+		level = strings.Replace(level, "+", ".7", -1)
+		cur, _ = strconv.ParseFloat(level, 64)
+		return levelHash[song.Music.Level_info.Level], fmt.Sprintf("%.0f+", Calculate(song.Achievement, cur))
+	}
+	return fmt.Sprintf("%.1f", cur), fmt.Sprintf("%.0f", Calculate(song.Achievement, cur))
 }
 
 func Calculate(score int, ds float64) float64 {

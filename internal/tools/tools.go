@@ -18,8 +18,12 @@ var authorization string
 func GetResource(url string) []byte {
 	split := strings.Split(url, "/")
 	fn := split[len(split)-1]
+	path := "./temp/score/"
+	if strings.HasSuffix(fn, ".webp") {
+		path = "./temp/cover/"
+	}
 	var result []byte
-	if fb, err := os.Open("./temp/" + fn); err == nil {
+	if fb, err := os.Open(path + fn); err == nil {
 		// 读取本地文件
 		result, _ = io.ReadAll(fb)
 	} else {
@@ -31,6 +35,7 @@ func GetResource(url string) []byte {
 		if req, err := http.NewRequest("GET", url, nil); err != nil {
 			log.Fatalln("创建请求失败: ", err)
 		} else {
+			fmt.Println("开始获取文件：", url)
 			req.Header.Set("Authorization", GetAuthorization())
 			if resp, err := client.Do(req); err != nil {
 				log.Fatalln("请求失败: ", err)
@@ -49,7 +54,8 @@ func GetResource(url string) []byte {
 			}
 		}
 		os.Mkdir("./temp", fs.ModeDir)
-		file, _ := os.Create("./temp/" + fn)
+		os.Mkdir(path, fs.ModeDir)
+		file, _ := os.Create(path + fn)
 		defer file.Close()
 		file.Write(result)
 	}
