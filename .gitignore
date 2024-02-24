@@ -1,7 +1,9 @@
 # 可执行文件
 *.exe
-b50
+
 
 # Debug调试文件
-!/cmd/maib50/*.go
-/cmd/maib50/*
+/cmd/maib50/temp
+/cmd/maib50/Authorization.txt
+/cmd/maib50/rating.json
+/cmd/maib50/b50.jpg
