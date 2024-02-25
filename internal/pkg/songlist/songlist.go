@@ -3,6 +3,7 @@ package songlist
 import (
 	"encoding/json"
 
+	"github.com/ShinonomeSetsuna/Pancake50/internal/config"
 	"github.com/ShinonomeSetsuna/Pancake50/internal/tools"
 	"github.com/ShinonomeSetsuna/Pancake50/internal/types"
 )
@@ -18,6 +19,9 @@ func GetRating() types.Rating {
 /*获取乐曲详细成绩*/
 func GetRecord(music_id string) types.Record {
 	var record types.Record
+	if config.QuickMode {
+		return record
+	}
 	jsonbytes := tools.GetResource("https://v2.otogame.net/api/game/maimai/record/" + music_id)
 	json.Unmarshal(jsonbytes, &record)
 	return record

@@ -171,11 +171,14 @@ func addMiddle(background *image.RGBA, song types.Song, x, y int, width, height 
 /*生成底部信息*/
 func drawBottom(song types.Song, record types.Record) *image.RGBA {
 	background := image.NewRGBA(image.Rect(0, 0, 600, 125))
-	var current types.MusicDetail
+	var current *types.MusicDetail
 	for _, levelinfo := range record.Data.Music_detail {
 		if levelinfo.Difficulty == song.Music.Level_info.Difficulty {
-			current = levelinfo
+			current = &levelinfo
 		}
+	}
+	if current == nil { // QuickMode
+		return background
 	}
 	sss_, _, _ := image.Decode(bytes.NewBuffer(score_rank[current.Score_rank]))
 	ap_, _, _ := image.Decode(bytes.NewBuffer(combo_status[current.Combo_status]))
