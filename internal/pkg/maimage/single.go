@@ -71,7 +71,7 @@ func drawTop(song types.Song) *image.RGBA {
 
 	// 添加难度bar
 	var bar image.Image
-	switch song.Music.Level_info.Difficulty {
+	switch song.Level_info.Difficulty {
 	case 0:
 		bar, _, _ = image.Decode(bytes.NewBuffer(bar_basic))
 	case 1:
@@ -131,7 +131,7 @@ func drawTop(song types.Song) *image.RGBA {
 	if ds != "0.0" {
 		addText(background, ds, 245, 67, color.White, 48)
 	} else {
-		addText(background, levelHash[song.Music.Level_info.Level], 245, 67, color.White, 48)
+		addText(background, levelHash[song.Level_info.Level], 245, 67, color.White, 48)
 	}
 	// 添加rating
 	// Todo: 后面使用定数表替换
@@ -173,7 +173,7 @@ func drawBottom(song types.Song, record types.Record) *image.RGBA {
 	background := image.NewRGBA(image.Rect(0, 0, 600, 125))
 	var current *types.MusicDetail
 	for _, levelinfo := range record.Data.Music_detail {
-		if levelinfo.Difficulty == song.Music.Level_info.Difficulty {
+		if levelinfo.Difficulty == song.Level_info.Difficulty {
 			current = &levelinfo
 		}
 	}

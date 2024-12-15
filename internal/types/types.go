@@ -6,17 +6,17 @@ type LevelInfo struct {
 }
 
 type Music struct {
-	Name       string    `json:"name"`
-	Artist     string    `json:"artist"`
-	Music_id   string    `json:"music_id"`
-	Is_deluxe  bool      `json:"is_deluxe"`
-	Level_info LevelInfo `json:"level_info"`
-	Jacket     string    `json:"jacket"`
+	Name      string `json:"name"`
+	Artist    string `json:"artist"`
+	Music_id  string `json:"music_id"`
+	Is_deluxe bool   `json:"is_deluxe"`
+	Jacket    string `json:"jacket"`
 }
 
 type Song struct {
-	Achievement int   `json:"achievement"`
-	Music       Music `json:"music"`
+	Achievement int       `json:"achievement"`
+	Music       Music     `json:"music"`
+	Level_info  LevelInfo `json:"level_info"`
 }
 
 type SongData struct {

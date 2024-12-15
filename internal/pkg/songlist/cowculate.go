@@ -49,7 +49,7 @@ func GetSongRating(song types.Song) (string, string) {
 		ds = DS[song.Music.Name].SD
 	}
 
-	switch song.Music.Level_info.Difficulty {
+	switch song.Level_info.Difficulty {
 	case 0:
 		cur = ds.Basic
 	case 1:
@@ -62,10 +62,10 @@ func GetSongRating(song types.Song) (string, string) {
 		cur = ds.ReMaster
 	}
 	if cur == 0 {
-		level := levelHash[song.Music.Level_info.Level]
+		level := levelHash[song.Level_info.Level]
 		level = strings.Replace(level, "+", ".7", -1)
 		cur, _ = strconv.ParseFloat(level, 64)
-		return levelHash[song.Music.Level_info.Level], fmt.Sprintf("%.0f+", Calculate(song.Achievement, cur))
+		return levelHash[song.Level_info.Level], fmt.Sprintf("%.0f+", Calculate(song.Achievement, cur))
 	}
 	return fmt.Sprintf("%.1f", cur), fmt.Sprintf("%.0f", Calculate(song.Achievement, cur))
 }
